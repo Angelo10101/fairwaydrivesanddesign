@@ -166,11 +166,10 @@ export default function Services() {
           className="services-banner-wrapper services-header-reveal"
           style={{
             width: '100%',
-            height: '420px',
-            overflow: 'hidden',
             marginBottom: '6rem',
             position: 'relative',
             backgroundColor: 'var(--bg-primary)',
+            overflow: 'hidden',
           }}
         >
           <div style={{
@@ -189,11 +188,10 @@ export default function Services() {
             alt="Completed porcelain patio terrace installation in Hampshire"
             style={{
               width: '100%',
-              height: '130%',
-              objectFit: 'cover',
-              position: 'absolute',
-              top: 0,
-              left: 0,
+              height: 'auto',
+              objectFit: 'contain',
+              display: 'block',
+              position: 'relative',
             }}
           />
         </div>
